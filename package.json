@@ -1,0 +1,28 @@
+{
+  "name": "cognizant_automation_technical_challenge",
+  "version": "1.0.0",
+  "description": "Cognizant Internal Evaluation: Automation Technical Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1" ,
+    "test": "npx playwright test" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WJ-wu/Cognizant_Automation_Technical_challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WJ-wu/Cognizant_Automation_Technical_challenge/issues"
+  },
+  "homepage": "https://github.com/WJ-wu/Cognizant_Automation_Technical_challenge#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.3",
+    "playwright": "^1.52.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

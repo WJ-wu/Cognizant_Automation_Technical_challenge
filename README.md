@@ -26,4 +26,6 @@ Acceptance Criteria (AC):
 
 Run code in Vscode : npx playwright test --config=playwright.config.ts
 
+testcase excel: https://docs.google.com/spreadsheets/d/1kZ7_Wj2E5C6W077AWMhYYH5cs_K0uK-9nlm3AI5Pnxc/edit?gid=0#gid=0
+
 

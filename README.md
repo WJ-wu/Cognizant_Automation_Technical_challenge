@@ -24,4 +24,6 @@ Acceptance Criteria (AC):
 7.Clear Competed Todos
            - User can clear all the compeleted tasks. 
 
+Run code in Vscode : npx playwright test --config=playwright.config.ts
+
 

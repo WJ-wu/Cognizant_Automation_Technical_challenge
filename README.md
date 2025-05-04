@@ -21,6 +21,7 @@ Acceptance Criteria (AC):
            - Clicking it removes the to-do from the list.
 6.Filter Todos
            - A user can toggle between “All”, “Completed”, and “Incomplete” views.
-
+7.Clear Competed Todos
+           - User can clear all the compeleted tasks. 
 
 

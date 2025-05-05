@@ -1,31 +1,54 @@
 # Cognizant_Automation_Technical_challenge
 Cognizant Internal Evaluation: Automation Technical Challenge 
 
-User Story: As a user, I should be able to manage my todos effectively.
+Test Website URL: https://todomvc.com/examples/react/dist/
+Test Report: https://docs.google.com/spreadsheets/d/1kZ7_Wj2E5C6W077AWMhYYH5cs_K0uK-9nlm3AI5Pnxc/edit?gid=0#gid=0
 
-Acceptance Criteria (AC):
-1.Create Todo
-           - A user can enter text into a to-do input field.
-           - Pressing "Enter" or clicking "Add" adds the to-do item.
-           - Empty inputs cannot be submitted (input validation must be enforced).
-2.View Todos
-           - All created to-dos are displayed in a list below the input field.
-3.Complete Todo
-           - Each to-do has a checkbox to mark it as completed.
-           - Completed to-dos are visually distinguished (e.g.strikethrough or faded).
-4.Edit Todo
-           - A user can click an "Edit" icon next to a to-do to update its text.
-           - Pressing "Enter" or clicking "Save" updates the item.
-5.Delete Todo
-           - Each to-do item has a delete button/icon.
-           - Clicking it removes the to-do from the list.
-6.Filter Todos
-           - A user can toggle between “All”, “Completed”, and “Incomplete” views.
-7.Clear Competed Todos
-           - User can clear all the compeleted tasks. 
 
-Run code in Vscode : npx playwright test --config=playwright.config.ts
+📖 About:
+This project is an automated end-to-end testing suite using Playwright with TypeScript. It is designed to test functionality of the todo list website. 
 
-testcase excel: https://docs.google.com/spreadsheets/d/1kZ7_Wj2E5C6W077AWMhYYH5cs_K0uK-9nlm3AI5Pnxc/edit?gid=0#gid=0
+🛠️ Technologies:
+    Playwright
+    TypeScript
+    Node.js / npm
+    VS Code
+    Git
 
+⚙️ Setup:
+1. Open VScode
+2. Under the terminal, Clone the repo:
+    git clone https://github.com/your-username/your-repo.git
+    cd your-repo
+3. Install dependencies:
+    npm install
+    npx playwright install
+
+🚀 Running Tests
+To run all tests:
+    npx playwright test --config=playwright.config.ts
+
+📊 Generating Reports
+After running tests, to see the result:
+locate test-results folder, openlast-run.json. This should show result pass is true. 
+
+📁 Folder Structure
+repo/
+|   Acceptance Criteria.txt
+|   package-lock.json
+|   package.json
+|   playwright.config.ts  # Playwright configuration
+|   README.md
+|   tsconfig.json
++---node_modules
+|
++---test-results
+|       .last-run.json
+|       
+\---tests
+        todo.spec.ts    # Test files
+
+
+👤 Author
+Wu Weijie – https://github.com/WJ-wu/Cognizant_Automation_Technical_challenge/tree/main
 

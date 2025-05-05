@@ -18,7 +18,7 @@ This project is an automated end-to-end testing suite using Playwright with Type
 ⚙️ Setup:
 1. Open VScode
 2. Under the terminal, Clone the repo:
-    git clone https://github.com/your-username/your-repo.git
+    git clone https://github.com/WJ-wu/Cognizant_Automation_Technical_challenge.git
     cd your-repo
 3. Install dependencies:
     npm install
